@@ -48,6 +48,10 @@ cp -R "<DerivedData 路径>/Build/Products/Release/OpenInProwl.app" /Application
 
 在 Finder 中打开某个目录，点击工具栏上的按钮，该目录就会在 Prowl 中打开。如果没有打开任何 Finder 窗口，则使用桌面目录。
 
+加入工具栏后的效果（左侧为本工具的按钮，右侧为终端按钮）：
+
+<img src="docs/finder-toolbar.png" alt="Finder 工具栏中的 OpenInProwl 按钮" width="360">
+
 ## 故障排查
 
 - **拖入没有反应**：确认是否按住了 ⌘；确认 App 位于固定位置，而不是 DerivedData 里。
