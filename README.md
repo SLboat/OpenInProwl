@@ -10,6 +10,8 @@
 - **Xcode 26 或更高版本**：用于编译工程。
 - **Prowl**：已安装到 `/Applications/Prowl.app`，并且 `prowl` 命令可用。可以在终端执行 `which prowl` 确认，输出应为 `/usr/local/bin/prowl`。
 
+  > **建议使用 Prowl 2026.10.21（20261021）。** 更新的版本中，`prowl open` 命令行调用会卡住，导致按钮点击后没有反应。
+
 ## 编译
 
 ```bash
