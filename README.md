@@ -53,3 +53,7 @@ cp -R "<DerivedData 路径>/Build/Products/Release/OpenInProwl.app" /Application
 - **拖入没有反应**：确认是否按住了 ⌘；确认 App 位于固定位置，而不是 DerivedData 里。
 - **点击后没有打开 Prowl**：在终端执行 `prowl open .`，确认 `prowl` 命令能正常工作。
 - **更换图标后工具栏仍显示旧图标**：把按钮移除后重新拖入。
+
+## 致谢
+
+本工具参考了 [OpenInTerminal-Lite](https://github.com/Ji4n1ng/OpenInTerminal)（Copyright (c) 2019 Jianing Wang，MIT 许可）的设计：以 Finder 工具栏按钮的形式快速打开目录，以及 `.icon` 格式的浅色／深色图标组织方式。`AppIcon.icon/icon.json` 沿用了它的配置结构，其余代码为重新编写。
